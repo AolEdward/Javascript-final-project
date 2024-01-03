@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>House of Fun Opening Soon</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/css.css">
+	</head>
+	
+    <body>
+
+        <button id="spin">SPIN</button>
+        <span class="arrow"></span>
+            <div class="container">
+                <div class="one">$$$</div>
+                <div class="two">Slots</div>
+                <div class="three">Bacarrat</div>
+                <div class="four">Games</div>
+                <div class="five">Roulette</div>
+                <div class="six">Bands</div>
+                <div class="seven">Food</div>
+                <div class="eight">Wine</div>
+            </div><br/><br/>
+	
+
+
+            <!--Lightbox Gallery-->
+            <div class="row">
+                <div class="column">
+                  <img src="./images/blackjack_small.jpg"  onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="./images/roulette_small.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="./images/slotmachine_small.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                  <img src="./images/stage_small.jpg"  onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+                
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./images/blackjack_large.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./images/roulette_large.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./images/slotmachine_large.jpg" style="width:100%">
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./images/stage_large.jpg" style="width:100%">
+                  </div>
+          
+              
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+                  <div class="caption-container">
+                    <p id="caption"></p>
+                  </div>
+              
+    
+                  <div class="column">
+                    <img class="demo" src="./images/blackjack_small.jpg" onclick="currentSlide(1)" alt="Black Jack">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./images/roulette_small.jpg"  onclick="currentSlide(2)" alt="Roulette">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./images/slotmachine_small.jpg"  onclick="currentSlide(3)" alt="Slot Machines">
+                  </div>
+              
+                  <div class="column">
+                    <img class="demo" src="./images/stage_small.jpg" onclick="currentSlide(4)" alt="Entertainment Stage">
+                  </div>
+    
+                  
+                </div>
+              </div> 
+
+
+             
+
+          
+
+
+    <script src="./js/javascript.js"></script>
+	</body>
+
+        <div class="footer">
+                <footer>
+                New Casino / Javascript Final Project &nbsp;|&nbsp; &copy; 2024
+                Find us everywhere: Facebook | Instagram 
+                </footer>
+        </div>
+</html>
